@@ -1,0 +1,141 @@
+/* Styles for the Subtraction component */
+.subtraction-container {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #E57373;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .subtraction-container .container {
+    margin: 20px;
+    padding: 40px;
+    max-width: 1000px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 90%;
+    box-sizing: border-box;
+  }
+  
+  .subtraction-container h1 {
+    color: #B71C1C;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .subtraction-container .question {
+    color: #333;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .subtraction-container .emoji-selection {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .subtraction-container .emoji-button {
+    font-size: 2.5rem;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #ffcc80;
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .subtraction-container .emoji-button:hover {
+    transform: scale(1.2);
+    background-color: #ffb74d;
+  }
+  
+  .subtraction-container .emoji-display {
+    color: #333;
+    font-size: 2.8rem;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  
+  .subtraction-container .input-box {
+    font-size: 1.8rem;
+    padding: 12px;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid #ff7043;
+    background-color: #fff3e0;
+    margin: 15px 0;
+    box-sizing: border-box;
+  }
+  
+  .subtraction-container .input-box:focus {
+    border-color: #ff5722;
+    outline: none;
+  }
+  
+  .subtraction-container .btn {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    padding: 12px 30px;
+    background-color: #ff7043;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .subtraction-container .btn:hover {
+    background-color: #d84315;
+    transform: scale(1.05);
+  }
+  
+  .subtraction-container .feedback {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #388e3c;
+  }
+  
+  /* Answer GIFs */
+  .subtraction-container .answer-gif {
+    position: absolute;
+    width: 320px;
+    height: auto;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Bottom Corner GIFs */
+  .subtraction-container .bottom-gif {
+    position: fixed;
+    width: 250px;
+    height: auto;
+    bottom: 20px;
+  }
+  
+  .subtraction-container .left-gif {
+    left: 20px;
+  }
+  
+  .subtraction-container .right-gif {
+    right: 20px;
+  }
+  

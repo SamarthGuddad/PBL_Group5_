@@ -1,0 +1,119 @@
+/* AboutUs.css */
+
+.about-us-container {
+    padding: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .our-story {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .our-story h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .our-story p {
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .our-team {
+    margin-bottom: 30px;
+  }
+  
+  .our-team h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .team-members-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .team-member-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .member-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 10px;
+  }
+  
+  .member-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .team-member-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .team-member-card h4 {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .member-bio {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #007bff; /* Example hover color */
+  }
+  
+  .our-values {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .our-values h2 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .our-values ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .our-values li {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 8px;
+  }
